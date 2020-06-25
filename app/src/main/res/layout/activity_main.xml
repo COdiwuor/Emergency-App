@@ -14,7 +14,8 @@
         android:text="@string/passenger"
         android:layout_margin="20dp"
         android:layout_centerInParent="true"
-        android:background="@drawable/custom_button"/>
+        android:background="@drawable/custom_button"
+        android:onClick="startPassengerActivity"/>
 
     <Button
         android:layout_width="250dp"
@@ -23,7 +24,8 @@
         android:layout_above="@id/btn_passenger"
         android:layout_margin="20dp"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/custom_button"/>
+        android:background="@drawable/custom_button"
+        android:onClick="startLoginActivity"/>
 
     <Button
         android:layout_width="250dp"
@@ -32,6 +34,7 @@
         android:layout_centerHorizontal="true"
         android:layout_margin="20dp"
         android:layout_below="@id/btn_passenger"
-        android:background="@drawable/custom_button"/>
+        android:background="@drawable/custom_button"
+        android:onClick="startClientActivity"/>
 
 </RelativeLayout>

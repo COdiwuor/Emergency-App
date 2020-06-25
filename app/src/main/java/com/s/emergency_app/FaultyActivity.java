@@ -3,11 +3,11 @@ package com.s.emergency_app;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Passenger extends AppCompatActivity {
+public class FaultyActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_passenger);
+        setContentView(R.layout.activity_faulty);
     }
 }
