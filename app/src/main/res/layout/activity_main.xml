@@ -13,7 +13,8 @@
         android:layout_height="60dp"
         android:text="@string/passenger"
         android:layout_margin="20dp"
-        android:layout_centerInParent="true" />
+        android:layout_centerInParent="true"
+        android:background="@drawable/custom_button"/>
 
     <Button
         android:layout_width="250dp"
@@ -21,7 +22,8 @@
         android:text="@string/technician"
         android:layout_above="@id/btn_passenger"
         android:layout_margin="20dp"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_button"/>
 
     <Button
         android:layout_width="250dp"
@@ -29,6 +31,7 @@
         android:text="@string/client"
         android:layout_centerHorizontal="true"
         android:layout_margin="20dp"
-        android:layout_below="@id/btn_passenger" />
+        android:layout_below="@id/btn_passenger"
+        android:background="@drawable/custom_button"/>
 
 </RelativeLayout>
