@@ -6,4 +6,8 @@
     <string name="hint_email">Email Address</string>
     <string name="hint_password">Password</string>
     <string name="login">Login</string>
+    <string name="forgot_pass">Don\'t Remember Password?</string>
+    <string name="stuck">Stuck</string>
+    <string name="faulty">Faulty</string>
+    <string name="service">Service</string>
 </resources>
